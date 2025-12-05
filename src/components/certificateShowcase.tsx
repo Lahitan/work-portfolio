@@ -8,6 +8,7 @@ const CertificateShowcase = () => {
     '/certificate-image/3.jpg',
     '/certificate-image/4.png',
     '/certificate-image/wt.PNG',
+    '/certificate-image/6.PNG',
   ];
 
   return (
