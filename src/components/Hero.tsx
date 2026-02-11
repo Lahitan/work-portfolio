@@ -27,13 +27,13 @@ export default function Hero() {
 
         <div className="mt-8 flex gap-4 justify-center">
           <Link
-            href="#contact"
+            href="#projects"
             className="px-6 py-3 rounded-xl bg-[#D6C8FF] text-foreground font-sans font-medium shadow-md hover:bg-[#9e80fb] hover:text-white transition"
           >
             View selected work
           </Link>
           <Link
-            href="#products"
+            href="#contact"
             className="px-6 py-3 rounded-xl bg-transperent border-2 border-[#D6C8FF] text-foreground font-sans font-medium shadow-md hover:bg-[#9e80fb] hover:text-white transition"
           >
             Contact me
