@@ -2,13 +2,12 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Navbar from '@/components/Navbar';
 import Blogs from '@/components/Blogs';
-import Products from '@/components/Products';
 import Skills from '@/components/Skills';
 import Project from '@/components/Project';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import CertificateShowcase from '@/components/certificateShowcase';
-import Services from '@/components/Services';
+import HowIWork from '@/components/HowIWork';
 
 import type { Metadata } from 'next';
 
@@ -38,9 +37,6 @@ export default function Home() {
       <section id="blogs">
         <Blogs />
       </section>
-      <section id="products">
-        <Products />
-      </section>
       <section id="skills">
         <Skills />
       </section>
@@ -50,8 +46,8 @@ export default function Home() {
       <section id="certificates">
         <CertificateShowcase />
       </section>
-      <section id="services">
-        <Services />
+      <section id="how-i-work">
+        <HowIWork />
       </section>
       <section id="contact">
         <Contact />

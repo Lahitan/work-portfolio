@@ -10,12 +10,19 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-3xl">
         <h1 className="text-5xl md:text-6xl font-heading font-bold text-foreground/90">
-          Building Thoughtful Experiences <br /> Through Code & Content
+          Frontend Developer focused on <br /> clear, accessible, real-world web
+          experiences
         </h1>
 
         <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto font-sans text-foreground/80">
-          A frontend developer & personal development advocate, on a mission to
-          create meaningful digital experiences.
+          I build and improve production-ready websites using React, Next.js,
+          and thoughtful UX writing, so users understand what to do, and teams
+          can ship with confidence.
+        </p>
+
+        <p className="mt-6 text-sm md:text-lg max-w-xl mx-auto font-sans text-foreground/80 bg-foreground/10 rounded-lg p-4">
+          Open to remote roles: Frontend Developer · Website Developer · UX /
+          Technical Writer
         </p>
 
         <div className="mt-8 flex gap-4 justify-center">
@@ -23,13 +30,13 @@ export default function Hero() {
             href="#contact"
             className="px-6 py-3 rounded-xl bg-[#D6C8FF] text-foreground font-sans font-medium shadow-md hover:bg-[#9e80fb] hover:text-white transition"
           >
-            Hire Me
+            View selected work
           </Link>
           <Link
             href="#products"
             className="px-6 py-3 rounded-xl bg-transperent border-2 border-[#D6C8FF] text-foreground font-sans font-medium shadow-md hover:bg-[#9e80fb] hover:text-white transition"
           >
-            Shop
+            Contact me
           </Link>
         </div>
       </div>

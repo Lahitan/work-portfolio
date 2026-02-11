@@ -7,36 +7,25 @@ export default function TechJourney() {
     <div className="space-y-6  font-sans text-foreground leading-relaxed">
       {/* Always visible part */}
       <p>
-        I am <strong>TAWAKALITU OMOLOJA</strong>, and I didn&apos;t stumble into
-        tech, I fought my way into it. With my husband&apos;s encouragement, I
-        traded fear for curiosity and discovered a passion for design and coding
-        that blended perfectly with my creativity.
+        I am <strong>TAWAKALITU OMOLOJA</strong>, I’m a frontend developer with
+        a strong interest in usability, accessibility, and clear communication.
+        I work primarily with{' '}
+        <strong> React, Next.js, Tailwind CSS, and modern JavaScript</strong> to
+        build responsive, accessible websites and small web applications.
       </p>
-
       <p>
-        Three months after giving birth, when most people would have taken a
-        step back, I strapped my baby to my back and kept learning. Late nights,
-        online courses, coding challenges, I made them part of my routine. That
-        season of my life taught me grit and resilience. It showed me that
-        motherhood and ambition can coexist, and it built the foundation of who
-        I am as a developer today.
+        I’m especially drawn to projects where clarity matters, forms,
+        onboarding flows, content-heavy pages, and user-facing interactions.
       </p>
-
+      Alongside development, I write about frontend concepts and accessibility,
+      which helps me think carefully about how users experience interfaces, not
+      just how they’re implemented. I work comfortably in remote teams, value
+      clear documentation and feedback, and enjoy improving existing products as
+      much as building new ones.
+      <p></p>
       {/* Expandable content */}
       {expanded && (
         <>
-          <p>
-            Over time, I completed programs like{' '}
-            <span className="font-semibold">Women Techsters Fellowship</span>{' '}
-            and <span className="font-semibold">AltSchool Africa</span> (both
-            intensive 1-year journeys), as well as{' '}
-            <span className="font-semibold">
-              FreeCodeCamp&apos;s 300-hour curriculum
-            </span>
-            . These experiences gave me both technical depth and the confidence
-            to take on challenges.
-          </p>
-
           <p>
             Today, I see myself as a lifelong learner, always eager to improve,
             collaborate, and share knowledge. For me, tech isn&apos;t just a
@@ -71,7 +60,6 @@ export default function TechJourney() {
           </div>
         </>
       )}
-
       {/* Toggle button */}
       <button
         onClick={() => setExpanded(!expanded)}

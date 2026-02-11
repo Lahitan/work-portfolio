@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Tawakalitu Omoloja — Portfolio
 
-## Getting Started
+A focused frontend portfolio showcasing case studies, UI thinking, and accessible web implementation.
 
-First, run the development server:
+This portfolio is designed to clearly communicate:
 
-```bash
+- role I’m targeting
+
+- I think about users
+
+- How I structure frontend work
+
+- How I collaborate remotely
+
+🚀 ##Live Site
+
+👉 View Portfolio
+
+🎯 Purpose
+
+## 🧩 Featured Case Studies
+
+1. Interactive Credit Card
+
+Focus: Form UX, validation timing, accessible inputs
+Explores how real-time feedback and UX writing improve usability.
+
+2. Web Fleet Website
+
+Focus: Layout systems, hierarchy, reusable components
+Demonstrates structured marketing-page design and consistent UI rhythm.
+
+3. Insta Spot
+
+Focus: UI state management, interaction flows
+A small app-style interface emphasizing predictable behavior and clean structure.
+
+Each case study includes:
+
+- Problem
+
+- Approach
+
+- Key decisions
+
+- Outcome
+
+- Lessons learned
+
+## 🛠 Tech Stack
+
+Next.js (App Router)
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+Framer Motion
+
+Formspree (Contact Form)
+
+## ♿ Accessibility Focus
+
+Accessibility is treated as a baseline, not an enhancement.
+
+Implemented practices include:
+
+- Proper label associations
+
+- Keyboard focus visibility
+
+- ARIA attributes where appropriate
+
+- Accessible form validation patterns
+
+- Clear, human error messaging
+
+## 🧠 How I Work
+
+This portfolio reflects how I approach frontend work:
+
+- Clear communication
+
+- User-first implementation
+
+- Consistent design systems
+
+- Reusable components
+
+- Remote-friendly workflow
+
+## 📁 Project Structure
+
+app/
+case-studies/
+[slug]/
+page.tsx
+components/
+Projects.tsx
+Contact.tsx
+Skills.tsx
+
+Case studies are driven by structured data to keep content maintainable and scalable.
+
+📦 Running Locally
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📬 Contact
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If you’re hiring for:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Frontend Developer (Junior / Early Mid)
 
-## Learn More
+Website Developer
 
-To learn more about Next.js, take a look at the following resources:
+UX / Technical Writer (UI-focused)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I’d love to hear about your team and product.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+(Emali📧)[tawakalituomoloja@gmail.com]
 
-## Deploy on Vercel
+## Notes for Recruiters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This portfolio is intentionally:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Minimal
+
+Calm
+
+Structured
+
+Focused on thinking, not visual noise
+
+If you'd like code samples, collaboration details, or deeper discussion on any case study — feel free to reach out.

@@ -6,7 +6,7 @@ export default function BlogsPreview() {
   return (
     <section id="blogs" className="py-20 px-6 max-w-6xl mx-auto">
       <h2 className="text-4xl font-heading font-bold text-center mb-10 text-foreground">
-        My Blogs
+        Writing on Frontend & Accessibility
       </h2>
 
       <div className="grid gap-8 md:grid-cols-2">
